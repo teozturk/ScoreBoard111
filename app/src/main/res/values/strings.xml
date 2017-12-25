@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ScoreBoard</string>
+    <string-array name="team_array" >
+        <item>TEAMS</item>
+        <item>TEAM  A</item>
+        <item>TEAM  B</item>
+        <item>TEAM  C</item>
+        <item>TEAM  D</item>
+        <item>TEAM  E</item>
+        <item>TEAM  F</item>
+    </string-array>
+</resources>
