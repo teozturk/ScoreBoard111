@@ -39,17 +39,13 @@ public class MainActivity extends AppCompatActivity {
 
         spinner_team = (Spinner) findViewById(R.id.spinner_team_two);
 
-        temre = ArrayAdapter.createFromResource(this, R.array.team_array, R.layout.my_spinner);
-
-        temre.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
         spinner_team.setAdapter(temre);
 
 
         RelativeLayout linearLayout = (RelativeLayout)findViewById(R.id.layout);
         Resources res = getResources();
-        Drawable portrait = res.getDrawable(R.drawable.futbol2);
-        Drawable landscape = res.getDrawable(R.drawable.futbol3);
+        Drawable portrait = res.getDrawable(R.drawable.futbol3);
+        Drawable landscape = res.getDrawable(R.drawable.futbol2);
 
         WindowManager window = (WindowManager)getSystemService(WINDOW_SERVICE);
         Display display = window.getDefaultDisplay();
